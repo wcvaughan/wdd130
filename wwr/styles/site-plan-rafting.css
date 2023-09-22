@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=karma&family=serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=serif&family=Karma&display=swap');
 
 :root {
     --primary-color: #b0ad9c;
@@ -6,8 +6,8 @@
     --accent1-color: #5b6033;
     --accent2-color: #4d531d;
 
-    --heading-font: 'Use only for big titles', karma;
-    --paragraph-font: ;
+    --heading-font: '_____', Karma;
+    --paragraph-font: '_____', serif;
 
     --nav-background-color: #5b6033;
     --nav-link-color: black;
