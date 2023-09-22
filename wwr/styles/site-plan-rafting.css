@@ -6,13 +6,13 @@
     --accent1-color: #5b6033;
     --accent2-color: #4d531d;
 
-    --heading-font: '______', karma;
-    --paragraph-font: '______', serif;
+    --heading-font: 'Use only for big titles', karma;
+    --paragraph-font: ;
 
-    --nav-background-color: ;
-    --nav-link-color: ;
-    --nav-hover-link-color: ;
-    --nav-hover-background-color: ;
+    --nav-background-color: #5b6033;
+    --nav-link-color: black;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color: gray;
 
 }
 
