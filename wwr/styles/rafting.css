@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;500&family=Roboto:wght@300&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&family=Roboto:wght@300&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+:root {
+    --primary-color: #8ca9d5ff;
+    --secondary-color: #566069ff;
+    --accent1-color: #9aa6b7ff;
+    --accent2-color: #222e31ff;
+
+    --heading-font: '_____', Karma;
+    --paragraph-font: '_____', serif;
+
+    --nav-background-color: #939c4e;
+    --nav-link-color: black;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color: gray;
+
+}
+
+/* Begin by styling the headings and paragraph elements.
+Add colors to the fonts.
+Remove the underlines from the social media links.
+Consider limiting the entire width of the page to make it easier to design the content. */
+
+
+body {
+    font-family: var(--paragraph-font);
+    /* max-width: 960px; */
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+/* nav a {
+    width: 100%;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+} */
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: var(--heading-font);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    background-color: rgba(86, 96, 105, 0.601);
+    font-family: var(--paragraph-font);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+}
+
+.overlay img {
+    width: auto;
+    height: 100px;
+    float: right;
+    padding: 1rem;
+}
+
+.carousel img {
+    display: block;
+    width: auto;
+    height: 300px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
