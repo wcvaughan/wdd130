@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=serif&family=Karma&display=swap');
 
 :root {
-    --primary-color: #b0ad9c;
-    --secondary-color: #48401e;
-    --accent1-color: #5b6033;
-    --accent2-color: #4d531d;
+    --primary-color: #8ca9d5ff;
+    --secondary-color: #566069ff;
+    --accent1-color: #9aa6b7ff;
+    --accent2-color: #222e31ff;
 
     --heading-font: '_____', Karma;
     --paragraph-font: '_____', serif;
 
-    --nav-background-color: #5b6033;
+    --nav-background-color: #939c4e;
     --nav-link-color: black;
     --nav-hover-link-color: blue;
     --nav-hover-background-color: gray;
@@ -24,7 +24,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 header {
