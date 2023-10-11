@@ -84,3 +84,8 @@ footer {
     display: grid;
     align-items: center;
 }
+
+.q1, .q2, .q3, .q4 {
+    font-weight: bold;
+}
+
