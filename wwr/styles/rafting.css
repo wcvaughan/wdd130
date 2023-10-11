@@ -180,7 +180,7 @@ footer {
 
 .staff-pictures {
     display: grid;
-    grid-template-columns: repeat(1fr 6);
+    grid-template-columns: repeat(6 1fr);
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -191,7 +191,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0,1);
+    border: 1px solid rgba(0, 0, 0, 1);
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
@@ -268,4 +268,4 @@ button:hover {
     margin-top: 5%;
     margin-left: 30%;
 }
-/* Last Modified 10/6/2023 */
+/* Last Modified 10/11/2023 */
