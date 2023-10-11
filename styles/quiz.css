@@ -21,7 +21,7 @@ header {
 h1 {
     margin: 1rem;
     font-size: 1.5rem;
-    color: 202A44;
+    color: navy;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0,1);
+    border: 1px solid rgba(0, 0, 0, 0, 1);
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
@@ -57,7 +57,7 @@ input[type="integer"] {
 
 button {
     margin: 1rem;
-    background-color: 0000FF;
+    background-color: blue;
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -68,7 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: 013220;
+    background-color: darkgreen;
 }
 
 footer {
