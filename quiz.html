@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300&family=Roboto:wght@300&family=Source+Serif+4:opsz,wght@8..60,300&display=swap" rel="stylesheet">
+    <title>WDD 130 | Quiz Form</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Chris Vaughan | Quiz Form</h1>
+    </header>
+    <main>
+        <form>
+            <div class="form-item">
+                <label for="q1">1. What does the acronym HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item">
+                <label for="q2">2. Give an example of how to correctly link a CSS file for styling.</label>
+                <textarea id="q2" name="q2" rows="6" placeholder="Write answer here"></textarea>
+            </div>
+            <div class="form-item">
+                <label for="q3">3. Which of the following is a correct CSS comment?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one ...</option>
+                    <option value="option1">-- This is a comment --</option>
+                    <option value="option2">/ This is a comment /</option>
+                    <option value="option3">/* This is a comment */</option>
+                </select>
+            </div>
+            <div>
+                <label for="q4">4. What percent fills the entire width of a page?</label>
+                <input type="number" id="q4" name="q4" min="0" max="100">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2023 | Quiz Form | Chris Vaughan</p>
+    </footer>
+</body>
+</html>
