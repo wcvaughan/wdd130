@@ -118,6 +118,7 @@ h1, h2 {
     justify-items: center;
     align-items: center;
     align-content: center;
+    font-weight: bolder;
 }
 
 .carousel {
