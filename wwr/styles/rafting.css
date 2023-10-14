@@ -174,18 +174,29 @@ footer {
 
 /* contact page styling */
 
-.company-info {
-
+.company-info h1, h2 {
+    text-align: center;
 }
 
 .staff-pictures {
     display: grid;
-    grid-template-columns: repeat(6 1fr);
+    grid-template-columns: 3fr;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
 }
+
+.staff-pictures img {
+    padding: 1rem;
+    grid-column: 2 / 1;
+    max-width: 200px;
+    height: auto;
+}
+
+.contact-form h1 {
+    text-align: center;
+} 
 
 form {
     width: 650px;
@@ -265,7 +276,14 @@ button:hover {
 }
 
 .map {
-    margin-top: 5%;
-    margin-left: 30%;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    align-self: center;
 }
-/* Last Modified 10/11/2023 */
+
+.map iframe {
+    grid-column-start: 2;
+}
+/* Last Modified 10/14/2023 */
