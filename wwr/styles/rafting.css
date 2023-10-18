@@ -60,6 +60,7 @@ nav a {
     width: 100%;
     color: var(--nav-link-color);
     background-color: var(--nav-background-color);
+    border-radius: 25px;
 }
 
 nav a:hover {
@@ -67,7 +68,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -90,6 +91,7 @@ h1, h2 {
 .hero img {
     width: 100%;
     height: auto;
+    border-radius: 25px;
 }
 
 .overlay {
@@ -102,6 +104,7 @@ h1, h2 {
     font-weight: bold;
     color: white;
     padding: 0.5rem;
+    border-radius: 25px;
 }
 
 .overlay img {
@@ -113,12 +116,26 @@ h1, h2 {
 
 .history {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 5fr;
     justify-content: center;
     justify-items: center;
-    align-items: center;
+    align-items: start;
     align-content: center;
     font-weight: bolder;
+    gap: 10px;
+}
+
+.mission {
+    grid-column: 2 / 2;
+}
+
+.values {
+    grid-column: 3 / 3;
+    
+}
+
+.promise {
+    grid-column: 4 / 4;
 }
 
 .carousel {
@@ -144,11 +161,18 @@ figure {
     max-width: 150px;
 }
 
+figure img {
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+}
+
 figcaption {
-    color: #fff;
+    color: #000;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    font-weight: bolder;
   }
 
 footer img {
@@ -177,6 +201,88 @@ footer p {
     font-weight: bolder;
 }
 
+/* home page styling */
+
+.home-2 {
+    display: grid;
+    grid-template-areas:
+        'left right'
+        'left right'
+        'left right';
+    padding: 2rem;
+    gap: 1rem;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.home-2 img {
+    grid-area: left;
+    width: 340px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.home-2 form {
+    grid-area: right;
+}
+
+.trip-button {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+.trip-button a {
+    align-self: center;
+    justify-self: center;
+}
+
+.trip-button h1 {
+    text-decoration: underline;
+}
+
+/* trip page styling */
+
+.trip {
+    display: grid;
+    grid-template-areas:
+        'trip-1 trip-1-text'
+        'trip-2-text trip-2'
+        'trip-3 trip-3-text';
+}
+
+.trip a {
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+
+.trip img {
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.trip-info {
+    display: block;
+
+}
+
+.trip-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    position: relative;
+}
+
+table, th, td {
+    grid-column: 2 / 4 ;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
 /* contact page styling */
 
 .company-info h1, h2 {
@@ -197,6 +303,11 @@ footer p {
     grid-column: 2 / 1;
     max-width: 200px;
     height: auto;
+    border-radius: 25px;
+}
+
+.contact-form {
+    display: grid;
 }
 
 .contact-form h1 {
@@ -205,6 +316,7 @@ footer p {
 
 form {
     width: 650px;
+    height: 700px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
@@ -248,7 +360,6 @@ input[type="checkbox"] {
 }
 
 button {
-    margin: 1rem;
     background-color: green;
     color: #fff;
     border: none;
