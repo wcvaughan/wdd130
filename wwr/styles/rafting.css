@@ -276,6 +276,7 @@ footer p {
     position: relative;
 }
 
+
 table, th, td {
     grid-column: 2 / 4 ;
     border-collapse: collapse;
@@ -402,4 +403,4 @@ button:hover {
 .map iframe {
     grid-column-start: 2;
 }
-/* Last Modified 10/14/2023 */
+/* Last Modified 10/19/2023 */
